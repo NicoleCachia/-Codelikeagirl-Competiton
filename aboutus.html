@@ -1,39 +1,41 @@
 <!doctype html>
 <html lang="en">
-<head>
-  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
-  <title>Nicole and Leonora website | About us</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
-  <style>
-  /* Make the image fully responsive */
-  .carousel-inner img {
+  <head>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
+    <title>Nicole and Leonora website | About us</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <style>
+/* Make the image fully responsive */
+.carousel-inner img {
     width: 100%;
     height: 100%;
-  }
+}
 </style>
-</head>
-<body>
-  <h1 style="text-align: center;"><img src="images/11.PNG" alt="Title 1"></h1>
-  <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
-    <!-- Brand -->
-    <!-- <a class="navbar-brand" href="#">Logo</a> -->
+  </head>
+  <body>
+    <h1 style="text-align: center;"><img src="images/11.PNG" alt="Title 1"></h1>
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+      <!-- Brand -->
+      <!-- <a class="navbar-brand" href="#">Logo</a> -->
 
-    <!-- Links -->
-    <ul class="navbar-nav">
-      <li class="nav-item">
-        <a class="nav-link" href="index.html">Home</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="aboutus.html">About us</a>
-      </li>
+      <!-- Links -->
+      <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="aboutus.html">About us</a>
+          </li>
 
-      <!-- Dropdown -->
-      <li class="nav-item dropdown">
+
+
+    <!-- Dropdown -->
+    <li class="nav-item dropdown">
         <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">Clothes</a>
         <div class="dropdown-menu">
           <a class="dropdown-item" href="#">Dresses</a>
@@ -43,20 +45,43 @@
       </li>
     </ul>
   </nav>
-  <main role="main" class="container">
-    <h1 style="text-align: center;"><strong>Who we are</strong></h1>
-    <p>The Glamtique website make shopping easier and more fun! We have a variety of amazing outfits at reasonable prices. We have all styles of fashion;from glam to casual!
-      We believe that everyone deserves to access to the same opportunities that other have. So, we are proud to say that the website is also a feel-good website since when you shop from our website,20% of your money goes to the animal shelter in Malta.
-      The Glamtique website has every thing for everyone. We believe in a world where you can have total freedom to be yourself, without any judgement.
-      <p> This webiste gives you a chance to be confident and be who ever you want to be.</p>
-      We do everything for our costumers: we can help you find your perfect fit, providing you clothes in various sizes, We've got the perfect clothing for you!
-      But we also believe that great fashion shuoldn't come with compromise. We've set ourselves challenging targets to reduce the impact of our product, buisness and logistics and we work hard to ensure animals don't suffer for fashion and
-      we also have struct sourcing guidelines for leather and producing animal-free products!</p>
-      <p>We encourage you to shop at our webisite because not only you have the latest fab clothes but you can also save the planet by buying from our online shop!</p>
-    </main>
-<div style="text-align:center">
-<img src="images/drr.jpg" alt="1"> <img src="images/dt.jpg" alt="2"> <img src="images/jeanss.JPG" alt="3">
+
+
+
+  <!-- Carusel -->
+  <div id="demo" class="carousel slide" data-ride="carousel">
+
+  <!-- Indicators -->
+  <ul class="carousel-indicators">
+    <li data-target="#demo" data-slide-to="0" class="active"></li>
+    <li data-target="#demo" data-slide-to="1"></li>
+    <!-- <li data-target="#demo" data-slide-to="2"></li> -->
+  </ul>
+
+  <!-- The slideshow -->
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="images/1.jpg" alt="Dress1">
+    </div>
+    <div class="carousel-item">
+      <img src="images/2.jpg" alt="Dress2">
+    </div>
+    <!-- <div class="carousel-item">
+      <img src="images/p4.jpg" alt="Dress 3">
+    </div> -->
+  </div>
+
+  <!-- Left and right controls -->
+  <a class="carousel-control-prev" href="#demo" data-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </a>
+  <a class="carousel-control-next" href="#demo" data-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </a>
+
 </div>
+
+
   </body>
 
-  </html>
+</html>
